@@ -72,6 +72,7 @@ while(current <= num)
     if(num % 2 == 0);
     {
     Console.Write(current + " ");
-    current = current + 2;}
+    current = current + 2;
+    }
 }
 */
