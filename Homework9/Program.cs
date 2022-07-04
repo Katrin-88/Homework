@@ -7,8 +7,7 @@ int SumElements(int m, int n)
 {    
     if(m < n)
       return n + SumElements(m, n - 1);
-    else
-      return m;
+    return m;
 }
 
 Console.Write("Input m: ");  
@@ -28,8 +27,7 @@ int CountNumbers(int num)
     int count = 1;
     if(num < 10 && num > -10)
        return 1;
-    else
-       return CountNumbers(num / 10) + count;
+    return CountNumbers(num / 10) + count;
 }
 
 Console.Write("Input num: ");  
