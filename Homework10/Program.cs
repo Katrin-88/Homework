@@ -1,7 +1,7 @@
 ﻿//Задача 1: Задайте массив строк. Напишите программу, которая считает кол-во слов в массиве, начинающихся на гласную букву.
 //Пример: { "qwe", "wer", "ert", "rty", "tyu"} -> 1
 /*
-string[] CreateStringArray(int size)//на вход берем размер символов, который нас интересует
+string[] CreateStringArray(int size)
 {
     string[] words = new string[size];
 
